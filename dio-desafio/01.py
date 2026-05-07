@@ -1,11 +1,11 @@
 # Lê o número de pedidos
-N = int(input())
+N = int(input("Digite o número de pedido : "))
 
 # Dicionário para armazenar totais por tipo de embalagem
 totais = {}
 
 # Processa cada pedido
-for _ in range(N):
+for c in range(N):
     linha = input()
     cliente, embalagem, quantidade = linha.split(", ")
     quantidade = float(quantidade)
